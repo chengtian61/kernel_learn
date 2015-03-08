@@ -1,6 +1,3 @@
-	.section	__TEXT,__text,regular,pure_instructions
-	.globl	_g
-	.align	4, 0x90
 _g:                                     ## @g
 ## BB#0:
 	pushl	%ebp
@@ -14,8 +11,6 @@ _g:                                     ## @g
 	popl	%ebp
 	retl
 
-	.globl	_f
-	.align	4, 0x90
 _f:                                     ## @f
 ## BB#0:
 	pushl	%ebp
@@ -30,8 +25,6 @@ _f:                                     ## @f
 	popl	%ebp
 	retl
 
-	.globl	_main
-	.align	4, 0x90
 _main:                                  ## @main
 ## BB#0:
 	pushl	%ebp
@@ -47,5 +40,3 @@ _main:                                  ## @main
 	popl	%ebp
 	retl
 
-
-.subsections_via_symbols
